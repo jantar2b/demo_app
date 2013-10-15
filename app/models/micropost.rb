@@ -1,3 +1,3 @@
-class Micropost1 < ActiveRecord::Base
+class Micropost < ActiveRecord::Base
   attr_accessible :content, :user_id
 end
