@@ -2,6 +2,8 @@
 
 <table>
   <tr>
+    <th>Title</th>
+    <th>Description</th>
     <th></th>
     <th></th>
     <th></th>
@@ -9,6 +11,8 @@
 
 <% @jobs.each do |job| %>
   <tr>
+    <td><%= job.title %></td>
+    <td><%= job.description %></td>
     <td><%= link_to 'Show', job %></td>
     <td><%= link_to 'Edit', edit_job_path(job) %></td>
     <td><%= link_to 'Destroy', job, method: :delete, data: { confirm: 'Are you sure?' } %></td>
