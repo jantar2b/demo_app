@@ -5,7 +5,7 @@ class JobsController < ApplicationController
     @jobs = Job.all
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # index1.html.erb
       format.json { render json: @jobs }
     end
   end

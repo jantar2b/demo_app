@@ -64,11 +64,11 @@ module ApplicationHelper
 
    "mauam".palindrome?
 
-    user = User.new({name: "Jarek", email: "jsuchanek@company.com"})
+    user = User1.new({name: "Jarek", email: "jsuchanek@company.com"})
 
     user.formated_email
 
-   user1 = User.new(Hash.new("Not specified"))
+   user1 = User1.new(Hash.new("Not specified"))
 
    user1.formated_email
 
@@ -101,7 +101,7 @@ class String
   end
 end
 
-class User
+class User1
 
   attr_accessor :name, :email
 
