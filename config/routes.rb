@@ -2,7 +2,6 @@ DemoApp::Application.routes.draw do
 
 
   get "car/index"
-
   resources :cars
 
 
@@ -11,7 +10,11 @@ DemoApp::Application.routes.draw do
 
   #match '/', to: "static_pages#home"
 
-  match '/help', to: "static_pages#help"
+  match '/help', to: 'static_pages#help'
+
+  get 'static_pages/help'
+
+  match '/signup', to: 'users#new'
 
 
   resources :projects

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails demo_app: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="823ea2b9-d4f2-48f0-b7fa-dd595e21a00d">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:C:\Users\Jarek\RubyOnRails\RubyMineProjects\demo_app\db\test.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails demo_app: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="3f9c4f53-5de0-41e9-8f58-e8f255fd71f6">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:C:\Users\Jarek\RubyOnRails\RubyMineProjects\demo_app\db\development.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
