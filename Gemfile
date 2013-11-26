@@ -29,6 +29,7 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'factory_girl_rails', '1.4.0'
 end
 gem 'jquery-rails'
 
@@ -45,4 +46,4 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+#gem 'debugger'

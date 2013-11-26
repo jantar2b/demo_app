@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3559005493">
+  <component name="DataSourceManagerImpl" format="xml" hash="163262421">
     <data-source source="LOCAL" name="Rails demo_app: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="823ea2b9-d4f2-48f0-b7fa-dd595e21a00d">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\Jarek\RubyOnRails\RubyMineProjects\demo_app\db\test.sqlite3</jdbc-url>
@@ -13,7 +13,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails demo_app: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="3f9c4f53-5de0-41e9-8f58-e8f255fd71f6">
+    <data-source source="LOCAL" name="Rails demo_app: development" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="3f9c4f53-5de0-41e9-8f58-e8f255fd71f6">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\Jarek\RubyOnRails\RubyMineProjects\demo_app\db\development.sqlite3</jdbc-url>
       <libraries>
@@ -22,6 +22,18 @@
         </library>
         <library>
           <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails demo_app: production" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="4342fec6-c7f1-4769-91ae-c92c41d99b2c">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Jarek\RubyOnRails\RubyMineProjects\demo_app\db\production.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar</url>
         </library>
       </libraries>
     </data-source>
